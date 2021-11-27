@@ -1,0 +1,35 @@
+*{  
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body
+{
+background-color: #07252d;
+
+display: flex;
+justify-content: center;
+height:100px;
+border: 0px;
+margin-top: 20%;
+align-items: center;
+color:#0e3742;
+font-size: 7em;
+font-weight: 900;
+letter-spacing: 4px;
+overflow: hidden;
+text-transform: uppercase;
+transition: 0.2s;
+-webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+}
+
+body:hover
+{
+
+  color:white;
+  text-shadow:0 0 10px #03bcf4,
+              0 0 20px #03bcf4,
+              0 0 40px #03bcf4,
+              0 0 80px #03bcf4,
+              0 0 160px #03bcf4;
+}
